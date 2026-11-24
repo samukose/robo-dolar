@@ -1,4 +1,4 @@
-# 💸 Robô do Dólar
+# Robô do Dólar
 
 Robô em Python que busca todo dia a cotação oficial do dólar (PTAX) na **API do Banco Central** (gratuita), guarda tudo numa tabela **MySQL** sem repetir nenhum dia e roda sozinho todo fim de tarde por agendamento.
 
@@ -21,16 +21,7 @@ API do Banco Central (PTAX)  →  Python (requests)  →  MySQL  →  agendador 
 - MySQL 8
 - Bibliotecas: `requests`, `mysql-connector-python`, `python-dotenv`, `truststore`
 
-## Estrutura
 
-```
-robo-dolar/
-├── robo_dolar.py       # busca na API e grava no banco
-├── schema.sql          # cria o banco e a tabela
-├── requirements.txt    # dependências
-├── .env.example        # modelo de configuração
-└── README.md
-```
 
 ## Como usar
 
